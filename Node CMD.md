@@ -4,6 +4,15 @@ sudo apt update
 sudo apt upgrade -y
 ```
 
+# install screen 
+```
+sudo apt install screen -y
+```
+# Create Screen And Run Next All Commands in New Screen 
+```
+screen -S pipe
+```
+
 # Install
 ```
 curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop"
