@@ -46,7 +46,15 @@ sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 
 
 
-# Save the file (Very Important)  (Open a different WSL window or Ubuntu for this)
+# Install Nano For Running Next Command 
+
+```
+sudo apt update && sudo apt install nano -y
+```
+
+
+
+# Save the file (Very Important)  (Open a different WSL window or Ubuntu for this) First install nano then run below command 
 
 ```
 nano ~/node_info.json
